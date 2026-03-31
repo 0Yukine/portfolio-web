@@ -91,13 +91,95 @@ export const PORTFOLIO_DATA = {
     },
     {
       id: 3,
-      title: "Video Content Production",
+      title: "Video Content Education",
       description: "Produksi video marketing dengan editing profesional",
       image: "🎬",
       imageUrl: "/projects/edukasi.jpg", // 👈 UBAH KE GAMBAR PROYEK ANDA
       tags: ["CapCut", "Video Editing", "Content Creation"],
       link: "https://www.instagram.com/reel/DVadmChkcjP/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==", // 👈 Link ke website/demo
       codeLink: "#", // 👈 Link ke GitHub
+    },
+    {
+      id: 4,
+      title: "Carousel Promosi Digital",
+      description:
+        "Desain konten visual interaktif untuk kampanye media sosial, fokus pada alur informasi yang komunikatif dan estetika desain yang modern.",
+      image: "🎯",
+      imageUrl: "/projects/2.png", // 👈 UBAH KE GAMBAR PROYEK ANDA
+      tags: ["Design", "Canva"],
+      link: "https://www.instagram.com/p/DV-5tPLDzXW/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      codeLink: "#",
+    },
+    {
+      id: 5,
+      title: "Carousel Promosi Digital",
+      description:
+        "Desain konten visual interaktif untuk kampanye media sosial, fokus pada alur informasi yang komunikatif dan estetika desain yang modern.",
+      image: "🎯",
+      imageUrl: "/projects/4.png", // 👈 UBAH KE GAMBAR PROYEK ANDA
+      tags: ["Design", "Canva"],
+      link: "https://www.instagram.com/p/DV-5tPLDzXW/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      codeLink: "#",
+    },
+    {
+      id: 6,
+      title: "Video Content Bombastri",
+      description: "Produksi video marketing dengan editing profesional",
+      image: "🎯",
+      imageUrl: "/projects/bombastri.png", // 👈 UBAH KE GAMBAR PROYEK ANDA
+      tags: ["CapCut", "Video Editing", "Content Creation"],
+      link: "https://www.instagram.com/reel/DWa9NrskWOj/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      codeLink: "#",
+    },
+    {
+      id: 7,
+      title: "Video Content Imlek",
+      description: "Produksi video marketing dengan editing profesional",
+      image: "🎯",
+      imageUrl: "/projects/Imlek.png", // 👈 UBAH KE GAMBAR PROYEK ANDA
+      tags: ["CapCut", "Video Editing", "Content Creation"],
+      link: "https://www.instagram.com/reel/DU17ilrCTKJ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      codeLink: "#",
+    },
+    {
+      id: 8,
+      title: "Video Content Umi",
+      description: "Produksi video marketing dengan editing profesional",
+      image: "🎯",
+      imageUrl: "/projects/umi.png", // 👈 UBAH KE GAMBAR PROYEK ANDA
+      tags: ["CapCut", "Video Editing", "Content Creation"],
+      link: "https://www.instagram.com/reel/DVNlhnukXVG/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      codeLink: "#",
+    },
+    {
+      id: 9,
+      title: "Video Content Warisan",
+      description: "Produksi video marketing dengan editing profesional",
+      image: "🎯",
+      imageUrl: "/projects/warisan.png", // 👈 UBAH KE GAMBAR PROYEK ANDA
+      tags: ["CapCut", "Video Editing", "Content Creation"],
+      link: "https://www.instagram.com/reel/DUK58iDEeNp/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      codeLink: "#",
+    },
+    {
+      id: 10,
+      title: "Video Content Eatbulaga",
+      description: "Produksi video marketing dengan editing profesional",
+      image: "🎯",
+      imageUrl: "/projects/eat bulaga.png", // 👈 UBAH KE GAMBAR PROYEK ANDA
+      tags: ["CapCut", "Video Editing", "Content Creation"],
+      link: "https://www.instagram.com/reel/DWfxG1TkYz9/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      codeLink: "#",
+    },
+    {
+      id: 11,
+      title: "Video Content GRWM",
+      description: "Produksi video marketing dengan editing profesional",
+      image: "🎯",
+      imageUrl: "/projects/grwm.jpg", // 👈 UBAH KE GAMBAR PROYEK ANDA
+      tags: ["CapCut", "Video Editing", "Content Creation"],
+      link: "https://www.instagram.com/reel/DT2msN2kZP8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      codeLink: "#",
     },
   ],
 };
