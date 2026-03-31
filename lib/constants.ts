@@ -73,7 +73,7 @@ export const PORTFOLIO_DATA = {
       description:
         "Portfolio modern dengan animasi halus menggunakan Framer Motion",
       image: "🎨",
-      imageUrl: "/projects/WebPorto.PNG", // 👈 UBAH KE GAMBAR PROYEK ANDA
+      imageUrl: "/projects/WebPorto.png", // 👈 UBAH KE GAMBAR PROYEK ANDA
       tags: ["React", "Next.js", "Tailwind CSS", "Framer Motion"],
       link: "#", // 👈 Link ke website/demo
       codeLink: "#", // 👈 Link ke GitHub
@@ -84,7 +84,7 @@ export const PORTFOLIO_DATA = {
       description:
         "Sistem desain lengkap dengan Figma untuk konsistensi branding",
       image: "🎭",
-      imageUrl: "/projects/kopi.PNG", // 👈 UBAH KE GAMBAR PROYEK ANDA
+      imageUrl: "/projects/kopi.png", // 👈 UBAH KE GAMBAR PROYEK ANDA
       tags: ["Figma", "UI/UX", "Design"],
       link: "https://0yukine.github.io/Kedai_kopi", // 👈 Link ke website/demo
       codeLink: "https://github.com/0Yukine/Kedai_kopi", // 👈 Link ke GitHub
