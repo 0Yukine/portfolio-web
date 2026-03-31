@@ -75,8 +75,8 @@ export const PORTFOLIO_DATA = {
       image: "🎨",
       imageUrl: "/projects/WebPorto.png", // 👈 UBAH KE GAMBAR PROYEK ANDA
       tags: ["React", "Next.js", "Tailwind CSS", "Framer Motion"],
-      link: "#", // 👈 Link ke website/demo
-      codeLink: "#", // 👈 Link ke GitHub
+      link: "https://portfolio-web-hjzy.vercel.app/", // 👈 Link ke website/demo
+      codeLink: "https://github.com/0Yukine/portfolio-web", // 👈 Link ke GitHub
     },
     {
       id: 2,
