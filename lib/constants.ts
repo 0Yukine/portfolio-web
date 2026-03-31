@@ -16,7 +16,7 @@ export const PORTFOLIO_DATA = {
     phone: "087820023322",
     profileImage: "/images/profile.jpeg", // 👈 UBAH KE FOTO ANDA - Taro foto di folder public/images/
     summary:
-      "Mahasiswa Teknik Informatika aktif di Universitas Semarang (USM) dengan minat kuat pada teknologi, desain grafis, dan pengembangan perangkat lunak. Memiliki pengalaman praktis dalam alur kerja cetak digital dan produksi desain melalui magang di Jeruk Offset Printing.",
+      "Mahasiswa Teknik Informatika aktif di Universitas Semarang (USM) dengan minat kuat pada teknologi, desain grafis, dan pengembangan perangkat lunak. Memiliki rekam jejak pengalaman yang beragam, mulai dari produksi desain dan cetak digital di Jeruk Offset Printing, hingga pembuatan konten dan manajemen kampanye digital sebagai Social Media Intern di Indosat Ooredoo Hutchison.",
     socials: {
       github: "https://github.com/0Yukine",
       linkedin: "https://linkedin.com",
