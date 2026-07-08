@@ -12,7 +12,7 @@ export const PORTFOLIO_DATA = {
     name: "Mickael William",
     title: "Informatics Student & Creative Designer",
     location: "Semarang, Jawa Tengah",
-    email: "williammcikael05@gmail.com",
+    email: "williammickael05@gmail.com",
     phone: "087820023322",
     profileImage: "/images/profile.jpeg", // 👈 UBAH KE FOTO ANDA - Taro foto di folder public/images/
     summary:
@@ -20,7 +20,7 @@ export const PORTFOLIO_DATA = {
     socials: {
       github: "https://github.com/0Yukine",
       linkedin: "https://linkedin.com",
-      email: "williammcikael05@gmail.com",
+      email: "williammickael05@gmail.com",
     },
   },
 
@@ -91,6 +91,17 @@ export const PORTFOLIO_DATA = {
     },
     {
       id: 3,
+      title: "Seecat Sepatoe",
+      description:
+        "Website katalog produk UMKM untuk mendukung promosi digital jasa perawatan sepatu dengan tampilan modern dan responsif.",
+      image: "👟",
+      imageUrl: "/projects/seecat.png", // Tambahkan screenshot proyek ke folder public/projects
+      tags: ["React", "Vite", "Tailwind CSS", "UI/UX"],
+      link: "https://seecat-sepatoe.vercel.app/",
+      codeLink: "https://github.com/0Yukine/seecat_sepatoe",
+    },
+    {
+      id: 4,
       title: "Video Content Education",
       description: "Produksi video marketing dengan editing profesional",
       image: "🎬",
@@ -100,7 +111,7 @@ export const PORTFOLIO_DATA = {
       codeLink: "#", // 👈 Link ke GitHub
     },
     {
-      id: 4,
+      id: 5,
       title: "Carousel Promosi Digital",
       description:
         "Desain konten visual interaktif untuk kampanye media sosial, fokus pada alur informasi yang komunikatif dan estetika desain yang modern.",
@@ -111,7 +122,7 @@ export const PORTFOLIO_DATA = {
       codeLink: "#",
     },
     {
-      id: 5,
+      id: 6,
       title: "Carousel Promosi Digital",
       description:
         "Desain konten visual interaktif untuk kampanye media sosial, fokus pada alur informasi yang komunikatif dan estetika desain yang modern.",
@@ -122,7 +133,7 @@ export const PORTFOLIO_DATA = {
       codeLink: "#",
     },
     {
-      id: 6,
+      id: 7,
       title: "Video Content Bombastri",
       description: "Produksi video marketing dengan editing profesional",
       image: "🎯",
@@ -132,7 +143,7 @@ export const PORTFOLIO_DATA = {
       codeLink: "#",
     },
     {
-      id: 7,
+      id: 8,
       title: "Video Content Imlek",
       description: "Produksi video marketing dengan editing profesional",
       image: "🎯",
@@ -142,7 +153,7 @@ export const PORTFOLIO_DATA = {
       codeLink: "#",
     },
     {
-      id: 8,
+      id: 9,
       title: "Video Content Umi",
       description: "Produksi video marketing dengan editing profesional",
       image: "🎯",
@@ -152,7 +163,7 @@ export const PORTFOLIO_DATA = {
       codeLink: "#",
     },
     {
-      id: 9,
+      id: 10,
       title: "Video Content Warisan",
       description: "Produksi video marketing dengan editing profesional",
       image: "🎯",
@@ -162,7 +173,7 @@ export const PORTFOLIO_DATA = {
       codeLink: "#",
     },
     {
-      id: 10,
+      id: 11,
       title: "Video Content Eatbulaga",
       description: "Produksi video marketing dengan editing profesional",
       image: "🎯",
@@ -172,7 +183,7 @@ export const PORTFOLIO_DATA = {
       codeLink: "#",
     },
     {
-      id: 11,
+      id: 12,
       title: "Video Content GRWM",
       description: "Produksi video marketing dengan editing profesional",
       image: "🎯",
