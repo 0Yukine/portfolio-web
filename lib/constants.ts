@@ -56,7 +56,7 @@ export const PORTFOLIO_DATA = {
       id: 2,
       company: "Jeruk Offset.CV",
       role: "Design & Production Staff",
-      period: "Oct 2023 - Dec 2023",
+      period: "Jan 2022 - July 2022",
       desc: [
         "Melaksanakan tugas desain grafis dan produksi cetak digital.",
         "Mengoperasikan mesin cetak digital untuk produksi masal.",
@@ -65,7 +65,7 @@ export const PORTFOLIO_DATA = {
     },
   ],
 
-  // Project Portfolio
+ // Project Portfolio
   projects: [
     {
       id: 1,
@@ -89,6 +89,7 @@ export const PORTFOLIO_DATA = {
       link: "https://0yukine.github.io/Kedai_kopi", // 👈 Link ke website/demo
       codeLink: "https://github.com/0Yukine/Kedai_kopi", // 👈 Link ke GitHub
     },
+
     {
       id: 3,
       title: "Seecat Sepatoe",
@@ -100,8 +101,33 @@ export const PORTFOLIO_DATA = {
       link: "https://seecat-sepatoe.vercel.app/",
       codeLink: "https://github.com/0Yukine/seecat_sepatoe",
     },
+
     {
       id: 4,
+      title: "Portal UMKM Langenharjo",
+      description:
+      "Website portal UMKM Desa Langenharjo yang menampilkan profil, produk, galeri, dan informasi tiga UMKM sebagai media promosi digital berbasis web.",
+      image: "🏪",
+      imageUrl: "/projects/portal.png",
+      tags: ["React", "TypeScript", "Tailwind CSS", "Vite", "Responsive"],
+      link: "https://umkm-langenharjo.vercel.app",
+      codeLink: "https://github.com/0Yukine/umkm-langenharjo",
+    },
+
+    {
+      id: 5,
+      title: "Won Dimsum Website",
+      description:
+      "Website landing page modern untuk Won Dimsum By Woengkoesan Eatery dengan katalog menu, galeri, testimoni pelanggan, FAQ, dan integrasi WhatsApp untuk pemesanan.",
+      image: "🥟",
+      imageUrl: "/projects/wondimsum.png",
+      tags: ["React", "TypeScript", "Tailwind CSS", "Vite", "Landing Page"],
+      link: "https://wondimsum.vercel.app",
+      codeLink: "https://github.com/0Yukine/wondimsum",
+    },
+
+    {
+      id: 6,
       title: "Video Content Education",
       description: "Produksi video marketing dengan editing profesional",
       image: "🎬",
@@ -111,7 +137,7 @@ export const PORTFOLIO_DATA = {
       codeLink: "#", // 👈 Link ke GitHub
     },
     {
-      id: 5,
+      id: 7,
       title: "Carousel Promosi Digital",
       description:
         "Desain konten visual interaktif untuk kampanye media sosial, fokus pada alur informasi yang komunikatif dan estetika desain yang modern.",
@@ -122,7 +148,7 @@ export const PORTFOLIO_DATA = {
       codeLink: "#",
     },
     {
-      id: 6,
+      id: 8,
       title: "Carousel Promosi Digital",
       description:
         "Desain konten visual interaktif untuk kampanye media sosial, fokus pada alur informasi yang komunikatif dan estetika desain yang modern.",
@@ -133,7 +159,7 @@ export const PORTFOLIO_DATA = {
       codeLink: "#",
     },
     {
-      id: 7,
+      id: 9,
       title: "Video Content Bombastri",
       description: "Produksi video marketing dengan editing profesional",
       image: "🎯",
@@ -143,7 +169,7 @@ export const PORTFOLIO_DATA = {
       codeLink: "#",
     },
     {
-      id: 8,
+      id: 10,
       title: "Video Content Imlek",
       description: "Produksi video marketing dengan editing profesional",
       image: "🎯",
@@ -153,7 +179,7 @@ export const PORTFOLIO_DATA = {
       codeLink: "#",
     },
     {
-      id: 9,
+      id: 11,
       title: "Video Content Umi",
       description: "Produksi video marketing dengan editing profesional",
       image: "🎯",
@@ -163,7 +189,7 @@ export const PORTFOLIO_DATA = {
       codeLink: "#",
     },
     {
-      id: 10,
+      id: 12,
       title: "Video Content Warisan",
       description: "Produksi video marketing dengan editing profesional",
       image: "🎯",
@@ -173,7 +199,7 @@ export const PORTFOLIO_DATA = {
       codeLink: "#",
     },
     {
-      id: 11,
+      id: 13,
       title: "Video Content Eatbulaga",
       description: "Produksi video marketing dengan editing profesional",
       image: "🎯",
@@ -183,7 +209,7 @@ export const PORTFOLIO_DATA = {
       codeLink: "#",
     },
     {
-      id: 12,
+      id: 14,
       title: "Video Content GRWM",
       description: "Produksi video marketing dengan editing profesional",
       image: "🎯",
