@@ -379,7 +379,7 @@ app/page.tsx (Main)
 
 ## 📞 Contact
 
-- Email: williammcikael05@gmail.com
+- Email: williammickael05@gmail.com
 - Phone: 087820023322
 - Location: Semarang, Jawa Tengah
 
