@@ -14,25 +14,30 @@ export const PORTFOLIO_DATA = {
     location: "Semarang, Jawa Tengah",
     email: "williammickael05@gmail.com",
     phone: "087820023322",
-    profileImage: "/images/profile.jpeg", // 👈 UBAH KE FOTO ANDA - Taro foto di folder public/images/
+    profileImage: "/images/profile1.jpg", // 👈 UBAH KE FOTO ANDA - Taro foto di folder public/images/
     summary:
-      "Mahasiswa Teknik Informatika aktif di Universitas Semarang (USM) dengan minat kuat pada teknologi, desain grafis, dan pengembangan perangkat lunak. Memiliki rekam jejak pengalaman yang beragam, mulai dari produksi desain dan cetak digital di Jeruk Offset Printing, hingga pembuatan konten dan manajemen kampanye digital sebagai Social Media Intern di Indosat Ooredoo Hutchison.",
+      "Mahasiswa Teknik Informatika aktif di Universitas Semarang (USM) dengan minat kuat pada software engineering, pengembangan aplikasi iOS, dan desain visual. Memiliki rekam jejak pengalaman yang beragam, mulai dari Apple Developer Academy (Foundation Program) di Universitas Ciputra, Social Media Intern di PT Indosat Ooredoo Hutchison, hingga staf produksi cetak digital di Jeruk Offset Printing.",
     socials: {
       github: "https://github.com/0Yukine",
-      linkedin: "https://linkedin.com",
+      linkedin: "https://www.linkedin.com/in/mickaelwilliam/",
       email: "williammickael05@gmail.com",
     },
   },
 
   // Soft Skills & Hard Skills
   skills: {
-    soft: ["Well Communicate", "Problem Solving", "Creative"],
+    soft: [
+      "Communication & Teamwork",
+      "Problem Solving & Analytical Thinking",
+      "Creative Content & Visual Storytelling",
+      "Challenge Based Learning (CBL)",
+    ],
     hard: [
-      "Canva",
-      "Capcut",
-      "Adobe Photoshop",
-      "Figma (UI/UX Design)",
-      "Visual Studio Code",
+      "JavaScript / HTML / CSS",
+      "Swift & SwiftUI",
+      "UI/UX Design (Figma)",
+      "Graphic Design (Adobe Photoshop & Canva)",
+      "Video Editing (CapCut)",
       "Microsoft Office",
     ],
   },
@@ -41,6 +46,17 @@ export const PORTFOLIO_DATA = {
   experience: [
     {
       id: 1,
+      company: "Apple Developer Academy @UC",
+      role: "Foundation Program Participant",
+      period: "19 Oct 2026 - 13 Nov 2026",
+      desc: [
+        "Mengikuti program intensif selama satu bulan berbasis Challenge Based Learning (CBL).",
+        "Berkolaborasi dalam tim untuk merancang dan memprototipe solusi aplikasi iOS menggunakan Swift & SwiftUI.",
+        "Menerapkan ideasi produk, pemecahan masalah (problem solving), dan standar desain UI/UX ala Apple.",
+      ],
+    },
+    {
+      id: 2,
       company: "Indosat Ooredoo Hutchison",
       role: "Social Media Intern",
       period: "Jan 2026 - March 2026",
@@ -53,7 +69,7 @@ export const PORTFOLIO_DATA = {
       ],
     },
     {
-      id: 2,
+      id: 3,
       company: "Jeruk Offset.CV",
       role: "Design & Production Staff",
       period: "Jan 2022 - July 2022",
@@ -65,7 +81,7 @@ export const PORTFOLIO_DATA = {
     },
   ],
 
- // Project Portfolio
+  // Project Portfolio
   projects: [
     {
       id: 1,
@@ -104,9 +120,33 @@ export const PORTFOLIO_DATA = {
 
     {
       id: 4,
+      title: "LPK Kapibara",
+      description:
+        "Sistem manajemen operasional dan landing page terintegrasi untuk LPK Kapibara. Dilengkapi pendataan peserta diklat, pencatatan keuangan, serta Sistem Autentikasi Multi-Role (Super Admin, Admin, dan User).",
+      image: "💼",
+      imageUrl: "/projects/LPK.png", // Tambahkan screenshot proyek ke folder public/projects
+      tags: ["PHP", "MySQL", "JavaScript", "HTML/CSS", "Full-Stack"],
+      link: "https://capybara.xo.je/Capybara/",
+      codeLink: "", // Isi URL GitHub jika ada (atau kosongkan "")
+    },
+
+    {
+      id: 5,
+      title: "BeeWise - Gamified Productivity App",
+      description:
+        "Aplikasi iOS berbasis SwiftUI yang memadukan manajemen jadwal dan produktivitas dengan elemen gamifikasi (Pet Points, task collection, dan shareable achievement cards) hasil pengembangan proyek CBL di Apple Developer Academy.",
+      image: "🐝",
+      imageUrl: "/projects/beewise.jpg", // Tambahkan screenshot/mockup preview ke folder public/projects
+      tags: ["Swift", "SwiftUI", "iOS Development", "CBL", "UI/UX Design"],
+      link: "", // Isi link App Store / TestFlight / Demo jika ada
+      codeLink: "https://github.com/0Yukine/BeeWise", // Isi link repository GitHub jika ada
+    },
+
+    {
+      id: 6,
       title: "Portal UMKM Langenharjo",
       description:
-      "Website portal UMKM Desa Langenharjo yang menampilkan profil, produk, galeri, dan informasi tiga UMKM sebagai media promosi digital berbasis web.",
+        "Website portal UMKM Desa Langenharjo yang menampilkan profil, produk, galeri, dan informasi tiga UMKM sebagai media promosi digital berbasis web.",
       image: "🏪",
       imageUrl: "/projects/portal.png",
       tags: ["React", "TypeScript", "Tailwind CSS", "Vite", "Responsive"],
@@ -115,10 +155,10 @@ export const PORTFOLIO_DATA = {
     },
 
     {
-      id: 5,
+      id: 7,
       title: "Won Dimsum Website",
       description:
-      "Website landing page modern untuk Won Dimsum By Woengkoesan Eatery dengan katalog menu, galeri, testimoni pelanggan, FAQ, dan integrasi WhatsApp untuk pemesanan.",
+        "Website landing page modern untuk Won Dimsum By Woengkoesan Eatery dengan katalog menu, galeri, testimoni pelanggan, FAQ, dan integrasi WhatsApp untuk pemesanan.",
       image: "🥟",
       imageUrl: "/projects/wondimsum.png",
       tags: ["React", "TypeScript", "Tailwind CSS", "Vite", "Landing Page"],
@@ -127,49 +167,49 @@ export const PORTFOLIO_DATA = {
     },
 
     {
-      id: 6,
+      id: 8,
       title: "Video Content Education",
       description: "Produksi video marketing dengan editing profesional",
       image: "🎬",
       imageUrl: "/projects/edukasi.jpg", // 👈 UBAH KE GAMBAR PROYEK ANDA
       tags: ["CapCut", "Video Editing", "Content Creation"],
-      link: "https://www.instagram.com/reel/DVadmChkcjP/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==", // 👈 Link ke website/demo
+      link: "https://drive.google.com/file/d/1ApyrPJBuX1MDkyADasbRFYQoViUPf05J/view?usp=drive_link", // 👈 Link ke website/demo
       codeLink: "#", // 👈 Link ke GitHub
     },
     {
-      id: 7,
+      id: 9,
       title: "Carousel Promosi Digital",
       description:
         "Desain konten visual interaktif untuk kampanye media sosial, fokus pada alur informasi yang komunikatif dan estetika desain yang modern.",
       image: "🎯",
       imageUrl: "/projects/2.png", // 👈 UBAH KE GAMBAR PROYEK ANDA
       tags: ["Design", "Canva"],
-      link: "https://www.instagram.com/p/DV-5tPLDzXW/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      link: "https://drive.google.com/open?id=1Mrr_F8zGZzowPz35zOAF1kEj99P7mK9G&usp=drive_copy",
       codeLink: "#",
     },
     {
-      id: 8,
+      id: 10,
       title: "Carousel Promosi Digital",
       description:
         "Desain konten visual interaktif untuk kampanye media sosial, fokus pada alur informasi yang komunikatif dan estetika desain yang modern.",
       image: "🎯",
       imageUrl: "/projects/4.png", // 👈 UBAH KE GAMBAR PROYEK ANDA
       tags: ["Design", "Canva"],
-      link: "https://www.instagram.com/p/DV-5tPLDzXW/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      link: "https://drive.google.com/file/d/1Yt9YGkz8ikzT-nWYN3MqYGu2zKiNHoLw/view?usp=drive_link",
       codeLink: "#",
     },
     {
-      id: 9,
+      id: 11,
       title: "Video Content Bombastri",
       description: "Produksi video marketing dengan editing profesional",
       image: "🎯",
       imageUrl: "/projects/bombastri.png", // 👈 UBAH KE GAMBAR PROYEK ANDA
       tags: ["CapCut", "Video Editing", "Content Creation"],
-      link: "https://www.instagram.com/reel/DWa9NrskWOj/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      link: "https://drive.google.com/file/d/1IgntZovzLmY6UHmjrce-Psf189cjjOFL/view?usp=drive_link",
       codeLink: "#",
     },
     {
-      id: 10,
+      id: 12,
       title: "Video Content Imlek",
       description: "Produksi video marketing dengan editing profesional",
       image: "🎯",
@@ -179,43 +219,43 @@ export const PORTFOLIO_DATA = {
       codeLink: "#",
     },
     {
-      id: 11,
+      id: 13,
       title: "Video Content Umi",
       description: "Produksi video marketing dengan editing profesional",
       image: "🎯",
       imageUrl: "/projects/umi.png", // 👈 UBAH KE GAMBAR PROYEK ANDA
       tags: ["CapCut", "Video Editing", "Content Creation"],
-      link: "https://www.instagram.com/reel/DVNlhnukXVG/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      link: "https://drive.google.com/file/d/1UtiB0_KLITRqhOEyF3hq81nWmSkj3Yis/view?usp=drive_link",
       codeLink: "#",
     },
     {
-      id: 12,
+      id: 14,
       title: "Video Content Warisan",
       description: "Produksi video marketing dengan editing profesional",
       image: "🎯",
       imageUrl: "/projects/warisan.png", // 👈 UBAH KE GAMBAR PROYEK ANDA
       tags: ["CapCut", "Video Editing", "Content Creation"],
-      link: "https://www.instagram.com/reel/DUK58iDEeNp/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      link: "https://drive.google.com/file/d/1742A7VThjkG5He1nvhprCgWz2737qscL/view?usp=drive_link",
       codeLink: "#",
     },
     {
-      id: 13,
+      id: 15,
       title: "Video Content Eatbulaga",
       description: "Produksi video marketing dengan editing profesional",
       image: "🎯",
       imageUrl: "/projects/eat bulaga.png", // 👈 UBAH KE GAMBAR PROYEK ANDA
       tags: ["CapCut", "Video Editing", "Content Creation"],
-      link: "https://www.instagram.com/reel/DWfxG1TkYz9/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      link: "https://drive.google.com/file/d/1tUi9KjVVyKIbZceHwSGqdZCKYT-PxJeZ/view?usp=sharing",
       codeLink: "#",
     },
     {
-      id: 14,
+      id: 16,
       title: "Video Content GRWM",
       description: "Produksi video marketing dengan editing profesional",
       image: "🎯",
       imageUrl: "/projects/grwm.jpg", // 👈 UBAH KE GAMBAR PROYEK ANDA
       tags: ["CapCut", "Video Editing", "Content Creation"],
-      link: "https://www.instagram.com/reel/DT2msN2kZP8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      link: "https://drive.google.com/file/d/1N5jwAajHO32My6GczrQmbPuDS4fKQD9P/view?usp=drive_link",
       codeLink: "#",
     },
   ],

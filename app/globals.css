@@ -1,42 +1,43 @@
 /**
- * app/globals.css
- * ================
- * Global CSS Styles
- * Fungsi: Import Tailwind CSS, custom global styles, dan animations
- * Diaplikasikan ke seluruh aplikasi
+- app/globals.css
+- ================
+- Global CSS Styles
+- Fungsi: Import Tailwind CSS, custom global styles, dan perbaikan mobile overflow
+- Diaplikasikan ke seluruh aplikasi
  */
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Reset & Base Styles */
-* {
+/* Reset & Pembatas Responsive (Mencegah Bug Layar Putih / Overflow Horizontal) */
+*,
+*::before,
+*::after {
   @apply m-0 p-0 box-border;
+  max-width: 100%;
 }
 
+/* Pembatas overflow yang benar (tanpa memicu double scrollbar) */
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
-  @apply bg-white text-gray-900 transition-colors duration-300;
+  @apply bg-[#0b0c10] text-white transition-colors duration-300;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  @apply m-0 p-0 box-border;
 }
 
 body.dark {
   @apply bg-slate-900 text-white;
-}
-
-/* Smooth color transitions */
-*,
-*::before,
-*::after {
-  transition:
-    background-color 200ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 200ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 200ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 200ms cubic-bezier(0.4, 0, 0.2, 1),
-    stroke 200ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Custom Animations */
@@ -105,7 +106,7 @@ body.dark {
 }
 
 ::-webkit-scrollbar-track {
-  @apply bg-gray-100;
+  @apply bg-gray-900;
 }
 
 body.dark ::-webkit-scrollbar-track {
@@ -113,7 +114,7 @@ body.dark ::-webkit-scrollbar-track {
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-gray-400 rounded-full hover:bg-gray-500;
+  @apply bg-gray-700 rounded-full hover:bg-gray-600;
 }
 
 body.dark ::-webkit-scrollbar-thumb {

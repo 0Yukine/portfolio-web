@@ -3,7 +3,7 @@
  * =============
  * Main Page / Home Page Component
  * Fungsi: Halaman utama yang mengintegrasikan semua components
- * Fitur: Dark mode state management, semua sections dalam satu halaman
+ * Fitur: Dark mode state management, pembatas overflow mobile, dan integrasi section
  */
 
 "use client";
@@ -21,7 +21,7 @@ export default function Home() {
   const [isDark, setIsDark] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
 
-  // Initialize dark mode from localStorage
+  // Initialize dark mode from localStorage / system preference
   useEffect(() => {
     setIsMounted(true);
     const savedDarkMode = localStorage.getItem("darkMode");
@@ -29,7 +29,6 @@ export default function Home() {
       const isDarkMode = JSON.parse(savedDarkMode);
       setIsDark(isDarkMode);
     } else {
-      // Check system preference
       const prefersDark = window.matchMedia(
         "(prefers-color-scheme: dark)",
       ).matches;
@@ -37,7 +36,7 @@ export default function Home() {
     }
   }, []);
 
-  // Save dark mode preference to localStorage
+  // Sync class 'dark' ke <html> agar Tailwind Dark Mode berjalan presisi
   useEffect(() => {
     if (isMounted) {
       localStorage.setItem("darkMode", JSON.stringify(isDark));
@@ -56,30 +55,32 @@ export default function Home() {
   return (
     <div className={isDark ? "dark" : ""}>
       <div
-        className={`min-h-screen transition-colors duration-300 ${isDark ? "bg-slate-900" : "bg-white"}`}
+        className={`min-h-screen w-full transition-colors duration-300 ${
+          isDark ? "bg-slate-900" : "bg-white"
+        }`}
       >
         {/* Navigation */}
         <Navbar isDark={isDark} setIsDark={setIsDark} />
 
-        {/* Main Content - Semua Section */}
-        <main>
-          {/* Hero Section - Landing page utama dengan intro */}
+        {/* Main Content dengan Pembatas Overflow Horizontal (Mencegah Bug Layar Putih & Double Scrollbar) */}
+        <main className="relative w-full overflow-x-hidden">
+          {/* Hero Section */}
           <Hero isDark={isDark} />
 
-          {/* Skills Section - Menampilkan soft & hard skills */}
+          {/* Skills Section */}
           <Skills isDark={isDark} />
 
-          {/* Experience Section - Riwayat pekerjaan dengan timeline */}
+          {/* Experience Section */}
           <Experience isDark={isDark} />
 
-          {/* Projects Section - Portfolio project showcase */}
+          {/* Projects Section */}
           <Projects isDark={isDark} />
 
-          {/* Contact Section - Form kontak dan informasi kontak */}
+          {/* Contact Section */}
           <Contact isDark={isDark} />
         </main>
 
-        {/* Footer - Bagian bawah dengan meta info dan social links */}
+        {/* Footer */}
         <Footer isDark={isDark} />
       </div>
     </div>
